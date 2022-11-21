@@ -1,0 +1,190 @@
+.navigation{
+    background-color: #3A8891;
+    overflow: hidden;
+}
+
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.navigation a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/*adds hover effect over navigation*/
+
+.navigation a:hover{
+    background-color: #7ddbe6;
+    color: black;
+}
+
+.navigation a.active{
+    background-color:#7ddbe6;
+    color: black;
+}
+
+body{
+    background-color: #FFEFD6;
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+.footer1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: #3A8891;
+}
+
+.footer2{
+    position: relative;
+    text-align: center;
+    background-color: #3A8891;
+}
+
+#image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   margin: 5px;
+   float: left;
+}
+
+#imageBike{
+    width: 400px;
+}
+
+#homeText{
+    text-align:justify;
+}
+
+.form{
+    font-family: sans-serif;
+    width: 500px;
+    padding: 30px;
+    background: #FFEFD6;
+    margin: 50px auto;
+
+}
+
+/*ensures button fits the style of the whole page*/
+
+input, button{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #FFEFD6;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: BLOCK;
+}
+
+label{
+    padding: 10px;
+}
+
+#outsideLink{
+    font-size: 15px;
+}
+
+/*changes font size and family for all the text*/
+
+p{
+    font-size: 13px;
+    font-family: tahoma;
+}
+
+#sportText{
+   padding-right: 50px;
+    text-align: right;
+}
+
+#models{
+    text-align: center;
+}
+
+#locat{
+    float: right;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+#hours{
+    float: right;
+    padding-right: 250px;
+    list-style: none;
+}
+
+#titleHours{
+    float: right;
+    padding-right: 300px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+
+.pic{
+    flex-basis: 40%;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*separates photos into equal columns*/
+  
+.leisureModelBikes {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    height: auto;
+}
+  
+.L::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#theText{
+    text-align: center;
+}
+
+#leisurephoto{
+    padding: 10PX;
+    height: 309px;
+    width: 412px;
+
+}
+
+#sportphoto{
+    height: 309px;
+    width: 412px;
+}
+
+#slogan{
+    color: black;
+    text-shadow: 2px 2px 5px #0E5E6F;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/*Changes font for the headers*/
+
+h1, h2, h3, h4{
+    font-family: tahoma;
+}
